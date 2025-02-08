@@ -1,4 +1,4 @@
-FROM openjdk:25-jdk-bookworm
+FROM openjdk:11-jre-slim
 
 # Install pbzip2 for parallel extraction
 RUN apt-get update \
